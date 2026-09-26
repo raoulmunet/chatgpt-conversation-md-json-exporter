@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Conversation Exporter",
+  "version": "2.1.0",
+  "description": "Save the open ChatGPT conversation to Markdown and JSON in one chosen folder.",
+  "content_scripts": [{
+    "matches": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+    "js": ["extract.js", "floating.js"],
+    "css": ["floating.css"],
+    "run_at": "document_idle",
+    "world": "ISOLATED"
+  }]
+}
