@@ -1,0 +1,37 @@
+#chat-exporter-floating-v21 {
+  position: fixed !important;
+  right: 20px !important;
+  bottom: 100px !important;
+  z-index: 2147483646 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+  gap: 7px !important;
+  font: 14px/1.4 system-ui, sans-serif !important;
+}
+#chat-exporter-floating-v21 button {
+  display: block !important;
+  background: #126b59 !important;
+  color: #fff !important;
+  border: 1px solid #0b5747 !important;
+  border-radius: 999px !important;
+  box-shadow: 0 5px 20px #0003 !important;
+  cursor: pointer !important;
+  font: 650 14px/1.2 system-ui, sans-serif !important;
+  padding: 12px 17px !important;
+  min-height: 42px !important;
+  white-space: nowrap !important;
+}
+#chat-exporter-floating-v21 button:disabled { opacity: .75 !important; cursor: wait !important; }
+#chat-exporter-floating-v21 button:focus-visible { outline: 3px solid #78d4ae !important; outline-offset: 2px !important; }
+#chat-exporter-floating-v21 .chat-exporter-status {
+  max-width: min(380px, calc(100vw - 40px)) !important;
+  background: #fff !important;
+  color: #182522 !important;
+  border: 1px solid #d4ddd8 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 5px 20px #0002 !important;
+  padding: 9px 12px !important;
+  white-space: normal !important;
+}
+#chat-exporter-floating-v21 .chat-exporter-status:empty { display: none !important; }
